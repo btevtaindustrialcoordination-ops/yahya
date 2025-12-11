@@ -14,7 +14,19 @@
 			"binding": "DB",
 			"database_name": "tm-d1",
 			"database_id": "0122c898-3541-43a8-8bd2-52a2e0081acc",
-			"migrations_dir": "drizzle"
+			"migrations_dir": "migrations"
+		},
+		{
+			"binding": "tm_d1",
+			"database_name": "tm-d1",
+			"database_id": "68aadfd4-ef52-440f-9db9-2de5ada73d8c",
+			"remote": true
+		},
+		{
+			"binding": "y",
+			"database_name": "tm-d11",
+			"database_id": "98fa5b31-665c-4e88-b00b-21b77e9e07af",
+			"remote": true
 		}
 	],
 	"upload_source_maps": true,
