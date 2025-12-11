@@ -11,6 +11,7 @@ import {
   Clock,
 } from "lucide-react";
 import { getSession } from "@/lib/auth-client";
+import {ModeToggle} from "@/components/mode-toggle";
 
 export const Route = createFileRoute("/")({
   beforeLoad: async () => {
@@ -54,6 +55,8 @@ function LandingPage() {
             <Button asChild>
               <Link to="/sign-up">Get Started</Link>
             </Button>
+            <ModeToggle/>
+
           </div>
         </div>
       </nav>
