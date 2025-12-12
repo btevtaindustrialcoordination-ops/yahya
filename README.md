@@ -52,8 +52,8 @@ A full-stack Task Manager application built as part of the **Advanced Full Stack
 
 ```bash
 # Clone the repository
-git clone https://github.com/ehtishamsajjad/tm.git
-cd tm
+git clone https://github.com/btevtaindustrialcoordination-ops/yahya.git
+cd yahya
 
 # Install dependencies
 bun install
@@ -114,7 +114,6 @@ This project is licensed under the Apache Version 2 License - see the [LICENSE](
 
 ## 👨‍💻 Author
 
-**Ehtisham Sajjad** - Senior Software Engineer
+**Yahya**
 
-- LinkedIn: [@ehtishamsajjad](https://www.linkedin.com/in/ehtishamsajjad/)
-- Email: [hi@ehtishamsajjad.com](mailto:hi@ehtishamsajjad.com)
+- Email: [hi@yahya.com](mailto:hi@yahya.com)
