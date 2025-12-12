@@ -101,6 +101,7 @@ app.post("/api/tasks", zValidator("json", createTaskSchema), async (c) => {
 
 app.patch("/api/tasks/:id", zValidator("json", updateTaskSchema), async (c) => {
   const user = await getAuthUser(c);
+  
   if (!user) {
     return c.json({ error: "Unauthorized" }, 401);
   }
